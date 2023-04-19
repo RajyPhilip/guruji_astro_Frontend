@@ -1,0 +1,42 @@
+/* premium astrologer box  */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #FFEFE3;
+
+}
+.all-cards-container{
+    width: 1224px;
+    margin-left: 108px;
+    background-color: #FFEFE3;
+}
+.premium-astro-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.premium-astro-cont img{
+    height: 29px;
+    width: 27px;
+}
+.premium-astro-cont p {
+    color: #D97122;
+    font-family: 'Sansation';
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.085em;
+}
+.torn{
+    margin-left: 104px;
+    margin-top: -4px;
+}
+
+/* //any problems container css  */
+
+.manyProblem-container{
+    width: 1224px;
+    height: 103px;
+    margin-left: 108px;
+}
