@@ -110,7 +110,7 @@
 }
 
 
-/* media queries  */
+/* media queries mobiles  */
 
 @media only screen and (max-width: 486px) {
 
@@ -122,7 +122,7 @@
     }
   }
   
-  /* Media Query for Mobiles */
+  /* Media Query for tablets */
   @media only screen and (max-width: 768px) {
     .torn{
         margin-left: 0;
@@ -138,4 +138,11 @@
         margin-left: 0;
     }
   }
+    /* Media Query for tablets */
+    @media only screen and (max-width: 992px) {
+
+        .Video-caraousel-main{
+            margin-left: 0;
+        }
+      }
   
