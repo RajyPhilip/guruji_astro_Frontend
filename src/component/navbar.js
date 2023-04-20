@@ -1,4 +1,6 @@
 
+import React from 'react';
+
 import './navbar.css';
 import logo from '../Images/gurujiLogo.png';
 import profile from '../Images/nav/nav_profile.png';

@@ -1,4 +1,6 @@
 
+import React from 'react';
+
 import './footer.css';
 import logo from '../Images/gurujiLogo.png';
 import socialBack from '../Images/footer/socials/logobg.png';

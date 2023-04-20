@@ -1,3 +1,4 @@
+import React from 'react';
 
 import './card.css';
 import sideHue from '../Images/card/side hue.png' ;
