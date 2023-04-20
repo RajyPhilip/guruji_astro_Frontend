@@ -1,19 +1,9 @@
 
 import React from 'react';
-
 import './footer.css';
-import logo from '../Images/gurujiLogo.png';
-import socialBack from '../Images/footer/socials/logobg.png';
-import facebookLogo from '../Images/footer/socials/facebookLogo.png';
-import instagramOuter from '../Images/footer/socials/instaouter.png';
-import instagramInner from '../Images/footer/socials/instainner.png';
-import twitterLogo from '../Images/footer/socials/twitterlogo.png';
-import youtubeLogo from '../Images/footer/socials/ytlogored.png';
-import youtubePlay from '../Images/footer/socials/ytlogo play.png';
-import trustedBack from '../Images/footer/trustedSeals/background.png';
-import razorpay from '../Images/footer/trustedSeals/razorpay.png' ;
-import paytmLogo from '../Images/footer/trustedSeals/paytm.png';
-import stripeLogo from '../Images/footer/trustedSeals/stripe.png';
+import logo from '../../Images/gurujiLogo.png';
+import socials from '../../Images/footer/socials';
+import trusted from '../../Images/footer/trustedSeals';
 
 function Footer() {
 
@@ -28,22 +18,22 @@ function Footer() {
             </div>
             <div className='social-cont'>
                 <div>
-                    <img src={socialBack} alt='socialbg' />
-                    <img src={facebookLogo} alt='facebooke' />
+                    <img src={socials.socialBack} alt='socialbg' />
+                    <img src={socials.facebookLogo} alt='facebooke' />
                 </div>
                 <div>
-                    <img src={socialBack} alt='socialbg' />
-                    <img src={instagramOuter} alt='instagrm' />
-                    <img src={instagramInner} alt='instagram' />
+                    <img src={socials.socialBack} alt='socialbg' />
+                    <img src={socials.instagramOuter} alt='instagrm' />
+                    <img src={socials.instagramInner} alt='instagram' />
                 </div>
                 <div>
-                    <img src={socialBack} alt='socialbg' />
-                    <img src={twitterLogo} alt='twitter' />
+                    <img src={socials.socialBack} alt='socialbg' />
+                    <img src={socials.twitterLogo} alt='twitter' />
                 </div>
                 <div>
-                    <img src={socialBack} alt='socialbg' />
-                    <img src={youtubeLogo} alt='youtube' />
-                    <img src={youtubePlay} alt='youtube' />
+                    <img src={socials.socialBack} alt='socialbg' />
+                    <img src={socials.youtubeLogo} alt='youtube' />
+                    <img src={socials.youtubePlay} alt='youtube' />
                 </div>
             </div>
             <div className='footer-trusted-cont'>
@@ -51,17 +41,17 @@ function Footer() {
             </div>
             <div className='trusted-logo-cont'>
                 <div>
-                    <img src={trustedBack} alt='background' />
-                    <img src={razorpay} alt='razorpayLogo' />
+                    <img src={trusted.trustedBack} alt='background' />
+                    <img src={trusted.razorpay} alt='razorpayLogo' />
                 </div>
                 <div>
-                    <img src={trustedBack} alt='background' />
-                    <img src={paytmLogo} alt='paytmLogo' />
+                    <img src={trusted.trustedBack} alt='background' />
+                    <img src={trusted.paytmLogo} alt='paytmLogo' />
                 </div>
             </div>
             <div className='trusted-stripe'>
-                <img src={trustedBack} alt='background' />
-                <img src={stripeLogo} alt='paytmLogo' />
+                <img src={trusted.trustedBack} alt='background' />
+                <img src={trusted.stripeLogo} alt='paytmLogo' />
             </div>
 
             <div className='footer-middle-container'>

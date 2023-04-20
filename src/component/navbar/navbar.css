@@ -3,7 +3,7 @@ body{
 }
 
 .navbar{
-    background-image: url("../Images/nav/nav\ background.png");
+    background-image: url("../../Images/nav/nav\ background.png");
     height: 580px;
 }
 .logo-container{

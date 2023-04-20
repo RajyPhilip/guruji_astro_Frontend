@@ -2,14 +2,8 @@
 import React from 'react';
 
 import './navbar.css';
-import logo from '../Images/gurujiLogo.png';
-import profile from '../Images/nav/nav_profile.png';
-import customerCare from '../Images/nav/customer-care.png';
-import refundImg from '../Images/nav/refund.png';
-import lockImg from '../Images/nav/private.png';
-import verified from '../Images/nav/vrified astrologer.png';
-import filledCircle from '../Images/nav/nav_caraousel-eff.png';
-import unfilledCircle from '../Images/nav/nav_caraousel_eff2.png';
+import logo from '../../Images/gurujiLogo.png';
+import navImages from '../../Images/nav';
 
 function Navbar() {
 
@@ -25,7 +19,7 @@ function Navbar() {
                 <p>Live(Coming Soon)  </p>
             </div>
             <div className='profile-container'>
-                <img src={profile} alt='logo' />
+                <img src={navImages.profile} alt='logo' />
             </div>
 
             <div className='nav-center-title-container'>
@@ -37,25 +31,25 @@ function Navbar() {
             </div>
 
             <div className='lower-nav' >
-                <img src={customerCare} alt='customer-care' />
+                <img src={navImages.customerCare} alt='customer-care' />
                 <p>24 X 7 Customer Support</p>
             </div>
             <div className='refund' >
-                <img src={refundImg} alt='customer-care' />
+                <img src={navImages.refundImg} alt='customer-care' />
                 <p>100% Refund if Unsatisfied</p>
             </div>
             <div className='refund privte' >
-                <img src={lockImg} alt='customer-care' />
+                <img src={navImages.lockImg} alt='customer-care' />
                 <p>Private & Confidential</p>
             </div>
             <div className='refund verified' >
-                <img src={verified} alt='customer-care' />
+                <img src={navImages.verified} alt='customer-care' />
                 <p>Verified &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Astrologer</p>
             </div>
             <div className='caraouse'>
-                <img src={filledCircle} />
-                <img src={unfilledCircle} />
-                <img src={unfilledCircle} />
+                <img src={navImages.filledCircle} />
+                <img src={navImages.unfilledCircle} />
+                <img src={navImages.unfilledCircle} />
             </div>
         </div>
     );

@@ -4,14 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./videoCaraousel.css";
 
-import girlImage from "../Images/Videocaraousel/girlImage.png";
-import leftImage from "../Images/Videocaraousel/leftImage.png";
-import rightImage from "../Images/Videocaraousel/rightImage.png";
-import leftArrow from "../Images/Videocaraousel/leftArrow.png";
-import rightArrow from "../Images/Videocaraousel/rightArrow.png";
-import play from '../Images/Videocaraousel/Play.png';
 
-const images = [leftImage, leftImage, girlImage, rightImage, rightImage];
+import videoCaraouselImages from "../../Images/Videocaraousel";
+
+const images = [videoCaraouselImages.leftImage, videoCaraouselImages.leftImage, videoCaraouselImages.girlImage, videoCaraouselImages.rightImage, videoCaraouselImages.rightImage];
 
 const VideoCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(2);
@@ -55,7 +51,7 @@ const VideoCarousel = () => {
             <div key={index} className={`image-container ${activeIndex === index ? "active" : ""}`}>
                 <img src={image} alt="" />
                 <div className="play-btn-cont">
-                    <img src={play} />
+                    <img src={videoCaraouselImages.play} />
                 </div>
             </div>
           ))}
@@ -64,13 +60,13 @@ const VideoCarousel = () => {
 
       <div className="arrow-container">
         <img
-          src={leftArrow}
+          src={videoCaraouselImages.leftArrow}
           alt=""
           onClick={handleLeftArrowClick}
           className={`${activeIndex === 0 ? "disabled" : ""}`}
         />
         <img
-          src={rightArrow}
+          src={videoCaraouselImages.rightArrow}
           alt=""
           onClick={handleRightArrowClick}
           className={`${activeIndex === 4 ? "disabled" : ""}`}

@@ -1,27 +1,17 @@
 import Carousel from 'react-material-ui-carousel';
 
 import './App.css';
-import Card from './component/Card';
-import Review from './component/Review';
-import Navbar from './component/navbar';
-import Footer from './component/footer';
 
-import image from './Images/card/image1.png' ;
-import image2 from './Images/card/image2.png' ;
-import image3 from './Images/card/image3.png' ;
-import image4 from './Images/card/image4.png' ;
-import image5 from './Images/card/image5.png' ;
-import image6 from './Images/card/image6.png' ;
-import image7 from './Images/card/image7.png' ;
-import image8 from './Images/card/image8.png' ;
-import image9 from './Images/card/image9.png' ;
+import { Navbar,VideoCaraousel,Card,Review,Footer } from './component';
+import cardsImage from './Images/card';
+
 import star from './Images/star.png' ;
 import tornPage from './Images/tornPage.png';
 import leftSolutionImg from './Images/manyproblem/leftImage.png';
 import rightSolutionImg from './Images/manyproblem/leftImage.png';
 import rotateImg from './Images/manyproblem/rotate_img.png';
 import middleSun from './Images/manyproblem/sun.png' ;
-import VideoCarousel from './component/VideoCaraousel';
+import VideoCarousel from './component/videosCaraousel/VideoCaraousel';
 import sun from './Images/Videocaraousel/sun.png';
 import banner from './Images/Videocaraousel/banner.png'
 import darkDot from './Images/Videocaraousel/darkdot.png';
@@ -30,15 +20,15 @@ import lightDot from './Images/Videocaraousel/lightdot.png';
 function App() {
 
 let cards  = [
-  { image: image},
-  { image: image2},
-  { image:image3 },
-  { image:image4},
-  { image: image5},
-  { image: image6},
-  { image: image7},
-  { image: image8},
-  { image: image9},
+  { image: cardsImage.image},
+  { image: cardsImage.image2},
+  { image:cardsImage.image3 },
+  { image:cardsImage.image4},
+  { image: cardsImage.image5},
+  { image: cardsImage.image6},
+  { image: cardsImage.image7},
+  { image: cardsImage.image8},
+  { image: cardsImage.image9},
 ]
 
   return (

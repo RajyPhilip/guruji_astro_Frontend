@@ -1,10 +1,9 @@
 
 import './review.css';
 
-import star from '../Images/star.png';
-import reviewDarkStar from '../Images/Review/reeviewdarkstar.png';
-import reviewLightStar from '../Images/Review/reviewlightstar.png' ;
-import arrow from '../Images/Review/Down Arrow.png';
+import star from '../../Images/star.png';
+import reviewImages from '../../Images/Review';
+
 function Review() {
     return (
         <div className='review-container'>
@@ -15,19 +14,19 @@ function Review() {
             </div>
             <div className='review-white-box'>
                 <div className='review-star-cont'>
-                    <img src={reviewDarkStar} />
-                    <img src={reviewDarkStar} />
-                    <img src={reviewDarkStar} />
-                    <img src={reviewDarkStar} />
-                    <img src={reviewLightStar} />
+                    <img src={reviewImages.reviewDarkStar} />
+                    <img src={reviewImages.reviewDarkStar} />
+                    <img src={reviewImages.reviewDarkStar} />
+                    <img src={reviewImages.reviewDarkStar} />
+                    <img src={reviewImages.reviewLightStar} />
                 </div>
                     <p>Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with </p>
                     <div className='both-arr-container'>
                         <div className='arrow-cont'>
-                            <img src={arrow} />
+                            <img src={reviewImages.arrow} />
                         </div>
                         <div className='arrow-cont right'>
-                            <img src={arrow} />
+                            <img src={reviewImages.arrow} />
                         </div>
                     </div>
             </div>
