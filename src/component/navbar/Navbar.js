@@ -7,7 +7,6 @@ import navImages from '../../Images/nav';
 import { GiHamburgerMenu } from 'react-icons/gi'
 
 function Navbar() {
- // background image
 
     return (
 <div className="navbar" >

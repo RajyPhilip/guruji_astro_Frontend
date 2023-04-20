@@ -23,6 +23,16 @@ const VideoCarousel = () => {
       setActiveIndex(next);
     },
     ref: sliderRef,
+    responsive: [
+      {
+        breakpoint: 786,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          variableWidth: true,
+        },
+      },
+    ],
   };
 
   const handleLeftArrowClick = () => {

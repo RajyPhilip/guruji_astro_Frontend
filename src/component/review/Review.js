@@ -5,6 +5,8 @@ import star from '../../Images/star.png';
 import reviewImages from '../../Images/Review';
 
 function Review() {
+
+
     return (
         <div className='review-container'>
             <div className='review-head-cont'>
@@ -29,6 +31,9 @@ function Review() {
                             <img src={reviewImages.arrow} />
                         </div>
                     </div>
+            </div>
+            <div className='review-dp'>
+                <img src={reviewImages.reviewDp} />
             </div>
         </div>
     );

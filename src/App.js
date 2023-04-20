@@ -7,6 +7,7 @@ import cardsImage from './Images/card';
 
 import star from './Images/star.png' ;
 import tornPage from './Images/tornPage.png';
+import tornDark from './Images/tornDark.png';
 import leftSolutionImg from './Images/manyproblem/leftImage.png';
 import rightSolutionImg from './Images/manyproblem/leftImage.png';
 import rotateImg from './Images/manyproblem/rotate_img.png';
@@ -89,6 +90,7 @@ let cards  = [
           </div>
       </div>
       <Review />
+      <img className='torn' src={tornDark} />
       <Footer />
     </div>
   );

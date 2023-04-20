@@ -1,6 +1,7 @@
 .footer-cont{
     background-color: #BD5300;
     height: 553px;
+    margin-top: 70px;
 }
 .footer-logo-cont{
     color: #F0F0F0;
@@ -135,3 +136,27 @@ color: #F8F8F8;
     height: 48px;
     border: none;
 }
+
+
+
+/* media queries  */
+
+@media only screen and (max-width: 486px) {
+    .dp-visi{
+        display: none;
+    }
+    .footer-cont{
+        width: 1400px;
+    }
+  }
+  
+  /* Media Query for Mobiles */
+  @media only screen and (max-width: 768px) {
+    .dp-visi{
+        display: none;
+    }
+    .footer-cont{
+        width: 1400px;
+    }
+  }
+  
